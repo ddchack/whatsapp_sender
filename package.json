@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-sender",
+  "version": "1.0.0",
+  "description": "Sistema de mensajería masiva WhatsApp - Desarrollado por Carlos David Donoso Cordero (ddchack)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["whatsapp", "baileys", "messaging"],
+  "author": "Carlos David Donoso Cordero (ddchack) - carlos-donoso.com",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.5.0",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "csv-parse": "^5.5.6",
+    "better-sqlite3": "^11.3.0",
+    "qrcode": "^1.5.4",
+    "pino": "^9.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
